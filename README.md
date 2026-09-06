@@ -4,8 +4,7 @@ A secure, AI-powered internet banking platform built on a real Spring
 Boot microservices backend, a React frontend, and a locally-hosted LLM
 assistant (RAG over Ollama).
 
-<img width="1916" height="1030" alt="Screenshot 2026-09-07 005951" src="https://github.com/user-attachments/assets/472b404c-9cdd-4046-b802-7337473fb7d9" />
-
+![Java](https://img.shields.io/badge/Java-21-orange)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4-brightgreen)
 ![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-Eureka%20%7C%20Gateway-brightgreen)
 ![React](https://img.shields.io/badge/React-19-61DAFB)
@@ -274,6 +273,22 @@ A few real issues that came up during development, in case they recur:
   (`ollama list` should show both required models) and that
   `AI-RAG-SERVICE` appears in the Eureka dashboard at
   `http://localhost:8761`.
+**##Images**
+
+<img width="1857" height="912" alt="Screenshot 2026-09-07 005430" src="https://github.com/user-attachments/assets/d63274e5-75d9-4bc3-9768-69702c34ef83" />
+
+<img width="1916" height="1030" alt="Screenshot 2026-09-07 005951" src="https://github.com/user-attachments/assets/970f5475-21a1-4d01-9c10-881a0e523adf" />
+
+<img width="1066" height="913" alt="Screenshot 2026-09-07 005112" src="https://github.com/user-attachments/assets/df44a986-6c00-4e59-a4be-00d9433f6616" />
+<img width="1892" height="905" alt="Screenshot 2026-09-07 005639" src="https://github.com/user-attachments/assets/f9086096-9ab7-4bd6-ad68-cbee654f0044" />
+
+<img width="796" height="555" alt="Screenshot 2026-09-07 003001" src="https://github.com/user-attachments/assets/9f206386-ee22-4a2c-8686-03ec9c25a0fd" />
+
+<img width="847" height="897" alt="Screenshot 2026-09-07 004932" src="https://github.com/user-attachments/assets/c20de487-d37c-451f-9882-cabae924d5f1" />
+
+<img width="755" height="830" alt="Screenshot 2026-09-07 004727" src="https://github.com/user-attachments/assets/12d37bcc-430a-44b8-9ac9-2a30d04af849" />
+
+
 
 ## Documentation index
 
