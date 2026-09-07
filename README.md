@@ -134,59 +134,10 @@ you're using the [Docker path](#quick-start-docker--cross-platform-alternative) 
 
 ## Quick start (Windows)
 
-1. **Start MySQL**, then run:
-   ```
-   create-databases.bat
-   ```
-   This creates all 5 required databases (enter your MySQL root password
-   when prompted).
-
-2. **(Optional, for AI Assistant)** install [Ollama](https://ollama.com),
-   then pull the two models this project uses:
-   ```
-   ollama pull qwen3:1.7b
-   ollama pull nomic-embed-text
-   ```
-
-3. **Run everything with one command:**
+ **Run everything with one command:**
    ```
    start-all.bat
-   ```
-   This launches all 8 backend services and the frontend, each in its own
-   terminal window, in the correct dependency order:
-   ```
-   [1/9] Eureka Service Registry
-   [2/9] Auth Service
-   [3/9] Core Banking Service
-   [4/9] User Service
-   [5/9] Fund Transfer Service
-   [6/9] Utility Payment Service
-        (20s pause — lets core services finish registering with Eureka
-         before AI RAG starts, to avoid a startup race)
-   [7/9] AI RAG Service
-        (10s pause)
-   [8/9] API Gateway
-   [9/9] Frontend (auto-runs `npm install` on first run only)
-   ```
-
-4. Open **http://localhost:5173** and register your first user.
-
-To stop everything cleanly, run `stop-all.bat`.
-
-## Quick start (Docker — cross-platform alternative)
-
-If you're not on Windows, or would rather not run 9 terminal windows:
-
-```
-docker compose up --build
-```
-
-Then, first run only:
-```
-docker compose exec ollama ollama pull qwen3:1.7b
-docker compose exec ollama ollama pull nomic-embed-text
-```
-
+ 
 Open **http://localhost:5173**.
 
 ## Deploying it yourself
